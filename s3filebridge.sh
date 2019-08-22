@@ -4,7 +4,7 @@
 
 usage() {
 	cat <<EOF
-Usage: s3filebridge.sh -b BUCKET [-d DIR | -nd]
+Usage: s3filebridge.sh -b BUCKET [-d DIR]
 
   -h | --help        Display usage message.
   -b | --bucket      [REQUIRED] Set the s3 bucket to mirror directory.
